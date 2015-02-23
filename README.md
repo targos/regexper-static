@@ -2,6 +2,10 @@
 
 Code for the http://regexper.com/ site.
 
+## Build parser
+
+`browserify src/js/parser/javascript.js -o regexper.js -t ./lib/canopy-transform.js -t babelify --standalone RegExper`
+
 ## Contributing
 
 I greatly appreciate any contributions that you may have for the site. Feel free to fork the project and work on any of the reported issues, or let me know about any improvements you think would be beneficial.
